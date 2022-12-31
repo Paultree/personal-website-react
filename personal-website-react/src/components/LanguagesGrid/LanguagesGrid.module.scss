@@ -1,0 +1,25 @@
+.LanguagesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+  gap: 3rem;
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.language {
+  display: flex;
+}
+
+h1 {
+  font-size: 1.5rem;
+}

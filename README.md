@@ -87,7 +87,7 @@ Purpose:
 
 MVP:
 
-- Build a SPA application for personal website. - []
+- Build a SPA application for personal website. - [x]
 - A landing page/section with your name and title on it. - []
 - An About page/section with a little bit about you - []
 - A Tech stacks/skills page/section with all the techs you have learned during the course - []
@@ -96,3 +96,8 @@ MVP:
 - Pick one style of naming convention. - []
 - Make it responsive. - []
 - Pictures of languages used. - []
+
+31/12/2022
+
+- Implemented a HomePage which will consist of a small introductory header and an array of programming language icons.
+- Will need to implement a solution where hovering on an icon will render the name of the language on the screen somewhere...
