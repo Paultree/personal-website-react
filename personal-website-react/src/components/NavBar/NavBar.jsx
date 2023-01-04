@@ -1,13 +1,32 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
   return (
     <nav className={styles.NavBar}>
-      <NavLink to="/">HOME</NavLink>
-      <NavLink to="/projects">PROJECTS</NavLink>
-      <NavLink to="/contact">CONTACT</NavLink>
+      <ul>
+        <li>
+          <Link activeClass="active" smooth spy to="home">
+            HOME
+          </Link>
+        </li>
+        <li>
+          <Link activeClass="active" smooth spy to="projects">
+            PROJECTS
+          </Link>
+        </li>
+        <li>
+          <Link activeClass="active" smooth spy to="qualifications">
+            QUALIFICATIONS
+          </Link>
+        </li>
+        <li>
+          <Link activeClass="active" smooth spy to="contact">
+            CONTACT
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };

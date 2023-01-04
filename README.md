@@ -88,10 +88,10 @@ Purpose:
 MVP:
 
 - Build a SPA application for personal website. - [x]
-- A landing page/section with your name and title on it. - []
+- A landing page/section with your name and title on it. - [x]
 - An About page/section with a little bit about you - []
-- A Tech stacks/skills page/section with all the techs you have learned during the course - []
-- A Project page/section with all your projects (use placeholder images and text at the beginning to render your website as it would with actual projects) - each project should have a little description, a link to a live version and a link to the matching GitHub Repo (using a README.md at the root of the repo to include how you went about coding for that project) - []
+- A Tech stacks/skills page/section with all the techs you have learned during the course - [x]
+- A Project page/section with all your projects (use placeholder images and text at the beginning to render your website as it would with actual projects) - each project should have a little description, a link to a live version and a link to the matching GitHub Repo (using a README.md at the root of the repo to include how you went about coding for that project) - [x]
 - A Contact page/section with your email, GitHub profile link, LinkedIn profile link - []
 - Pick one style of naming convention. - []
 - Make it responsive. - []

@@ -7,3 +7,46 @@
 body {
   margin: 0;
 }
+
+.NavBar {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  background-color: #212529;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+
+  & > * {
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: none;
+  }
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+Link {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.ProjectPage {
+  background-color: #212529;
+}

@@ -34,9 +34,6 @@ const LanguagesGrid = () => {
         return (
           <div key={index} className={styles.language}>
             <img src={icon} />
-            <h1>
-              {String(icon).replace("/src/assets/", "").replace(".svg", "")}
-            </h1>
           </div>
         );
       })}

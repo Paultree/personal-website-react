@@ -1,0 +1,19 @@
+.ProjectsPage {
+  text-align: center;
+  margin: auto 10rem;
+  height: 95vh;
+  color: #f8f9fa;
+
+  &_Grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-top: 3rem;
+  }
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 2rem;
+}

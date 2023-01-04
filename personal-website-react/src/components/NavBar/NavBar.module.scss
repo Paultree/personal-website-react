@@ -12,3 +12,12 @@
     background-color: none;
   }
 }
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}

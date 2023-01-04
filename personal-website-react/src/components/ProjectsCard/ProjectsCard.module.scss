@@ -1,0 +1,16 @@
+.ProjectsCard {
+  display: flex;
+  & > img {
+    width: 30rem;
+    height: auto;
+  }
+}
+
+.ProjectDetails {
+  width: 200px;
+  padding: 0 1rem;
+}
+
+h2 {
+  margin: 0;
+}
