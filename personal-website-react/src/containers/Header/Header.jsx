@@ -10,7 +10,7 @@ const Header = () => {
       <h1>-</h1>
 
       <h1 className={styles.Header_TypeWriter}>
-        I can code in...
+        I can code in&nbsp;
         <TypeWriter
           onInit={(typewriter) => {
             typewriter
@@ -29,7 +29,7 @@ const Header = () => {
               .typeString("Java")
               .pauseFor(1000)
               .deleteAll()
-              .typeString("SASS/SCSS")
+              .typeString("SASS")
               .pauseFor(1000)
               .deleteAll()
               .typeString("Springboot")

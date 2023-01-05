@@ -1,4 +1,23 @@
-img {
-  width: 5rem;
-  height: auto;
+.QualificationPage {
+  padding: 10rem;
+  color: #212529;
+  background-color: #f8f9fa;
+
+  &_One {
+    & > p {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+  }
+
+  & > h1 {
+    font-size: 2rem;
+  }
+
+  & > div {
+    & > img {
+      width: 7rem;
+      height: auto;
+    }
+  }
 }

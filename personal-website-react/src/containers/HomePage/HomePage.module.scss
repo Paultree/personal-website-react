@@ -2,4 +2,7 @@
   display: flex;
   background-color: #f8f9fa;
   height: 100vh;
+  & > * {
+    color: #212529;
+  }
 }

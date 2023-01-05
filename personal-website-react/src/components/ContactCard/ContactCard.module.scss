@@ -1,0 +1,19 @@
+.ContactCard {
+  & > h1 {
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+  }
+  &_Links {
+    display: flex;
+    flex-direction: column;
+    & > a {
+      margin: 1rem 0;
+      text-decoration: none;
+      color: #f8f9fa;
+      & > :active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

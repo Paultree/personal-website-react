@@ -1,0 +1,23 @@
+.AboutCard {
+  & > h1 {
+    font-size: 2rem;
+  }
+  &_Info {
+    display: flex;
+    padding: 1rem 2rem;
+
+    &_Para {
+      width: 20rem;
+      padding: 2rem 5rem;
+      font-size: 1.1rem;
+      > p:first-child {
+        margin-bottom: 2rem;
+        margin-top: 0;
+      }
+    }
+    & > img {
+      width: 30rem;
+      border-radius: 50%;
+    }
+  }
+}

@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  & > * {
+    color: #212529;
+  }
 
   &_TypeWriter {
     font-size: 1.5rem;

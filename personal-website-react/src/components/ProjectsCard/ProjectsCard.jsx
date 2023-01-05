@@ -4,8 +4,8 @@ import styles from "./ProjectsCard.module.scss";
 const ProjectsCard = ({ data }) => {
   const imageStyle = {
     backgroundImage: `url(${data.image})`,
-    width: "200px",
-    height: "290px",
+    width: "15rem",
+    height: "20rem",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",

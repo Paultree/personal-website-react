@@ -6,9 +6,9 @@ const QualificationPage = () => {
   return (
     <div className={styles.QualificationPage}>
       <h1>I've studied...</h1>
-      <div>
-        <h3>BACHELOR OF PSYCHOLOGICAL SCIENCE</h3>
-        <h4>2020</h4>
+      <div className={styles.QualificationPage_One}>
+        <p>BACHELOR OF PSYCHOLOGICAL SCIENCE</p>
+        <p>2020</p>
         <img src={image} />
       </div>
     </div>

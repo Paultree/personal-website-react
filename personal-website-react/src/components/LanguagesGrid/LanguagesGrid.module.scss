@@ -3,12 +3,13 @@
   flex-wrap: wrap;
   width: 100%;
   gap: 2rem;
-}
-
-img {
-  width: 4rem;
-  height: 4rem;
-  gap: 3rem;
+  & > div {
+    & > img {
+      width: 4rem;
+      height: auto;
+      gap: 3rem;
+    }
+  }
 }
 
 .language {
