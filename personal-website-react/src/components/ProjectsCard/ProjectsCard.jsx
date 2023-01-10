@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./ProjectsCard.module.scss";
+import go from "../../assets/go.svg";
+import git from "../../assets/git-tile.svg";
 
 const ProjectsCard = ({ data }) => {
   const imageStyle = {
@@ -19,6 +21,14 @@ const ProjectsCard = ({ data }) => {
       <div className={styles.ProjectDetails}>
         <h2>{data.title}</h2>
         <p>{data.desc}</p>
+        <div className={styles.ProjectDetails_Tiles}>
+          <a href="#">
+            <img src={go} />
+          </a>
+          <a href="#">
+            <img src={git} />
+          </a>
+        </div>
       </div>
     </div>
   );

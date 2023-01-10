@@ -6,8 +6,10 @@ import styles from "./AboutPage.module.scss";
 const AboutPage = () => {
   return (
     <div className={styles.AboutPage}>
-      <AboutCard />
-      <ContactCard />
+      <div className={styles.AboutPage_Center}>
+        <AboutCard />
+        <ContactCard />
+      </div>
     </div>
   );
 };

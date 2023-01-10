@@ -1,14 +1,22 @@
 .ProjectsCard {
   display: flex;
-  & > img {
-    width: 30rem;
-    height: auto;
-  }
 }
 
 .ProjectDetails {
   width: 15rem;
   padding: 0 1rem;
+  &_Tiles {
+    & > a {
+      & > img {
+        width: 2rem;
+        margin: 0.5rem;
+        &:hover {
+          filter: invert(99%) sepia(6%) saturate(294%) hue-rotate(80deg)
+            brightness(104%) contrast(93%);
+        }
+      }
+    }
+  }
 }
 
 h2 {

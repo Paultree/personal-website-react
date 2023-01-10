@@ -1,7 +1,7 @@
 .ProjectsPage {
   text-align: center;
   margin: auto 10rem;
-  height: 100vh;
+  min-height: 100vh;
   color: #f8f9fa;
 
   &_Grid {
@@ -9,7 +9,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 5rem;
-    padding-top: 3rem;
+    padding: 3rem 0;
   }
 
   & > h1 {
