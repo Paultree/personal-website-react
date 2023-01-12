@@ -75,6 +75,7 @@ Your Portfolio should have the following section:
 - Swap out the projects.
   - Need to add 1 that displays Java proficiency.
   - Need to add the e-commerce website to demonstrate skills with firebase/firestore + React.
+- Add a name tag at top left - left of navbar.
 
 # Further reading
 
