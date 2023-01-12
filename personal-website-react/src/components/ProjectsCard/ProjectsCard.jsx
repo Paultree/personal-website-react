@@ -25,7 +25,7 @@ const ProjectsCard = ({ data }) => {
           <a href="#">
             <img src={go} />
           </a>
-          <a href="#">
+          <a href={data.git} target="_blank">
             <img src={git} />
           </a>
         </div>

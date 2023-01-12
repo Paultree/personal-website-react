@@ -11,7 +11,7 @@ const AboutCard = () => {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    boxShadow: "2px 2px 10px #f8f9fa;",
+    boxShadow: "2px 2px 10px #f8f9fa",
   };
 
   return (

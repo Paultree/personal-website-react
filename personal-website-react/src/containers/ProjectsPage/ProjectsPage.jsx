@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "./ProjectsPage.module.scss";
-import { morseObj, wordleObj, booksObj } from "../../assets/projects.js";
+import {
+  morseObj,
+  wordleObj,
+  booksObj,
+  calcObj,
+} from "../../assets/projects.js";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard.jsx";
 
 const ProjectsPage = () => {
-  const projectsArr = [morseObj, wordleObj, booksObj];
+  const projectsArr = [morseObj, wordleObj, booksObj, calcObj];
 
   return (
     <div className={styles.ProjectsPage}>

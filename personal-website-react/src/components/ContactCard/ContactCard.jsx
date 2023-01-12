@@ -9,15 +9,18 @@ const ContactCard = () => {
     <div className={styles.ContactCard}>
       <h1>Get In Touch</h1>
       <div className={styles.ContactCard_Links}>
-        <a href="#">
+        <a href="mailto:paulpham3000@gmail.com" target="_blank">
           <img src={gmail} />
           paulpham3000@gmail.com
         </a>
-        <a href="#">
+        <a
+          href="https://www.linkedin.com/in/paul-pham-b49244110/"
+          target="_blank"
+        >
           <img src={linkedin} />
           @paul-pham
         </a>
-        <a href="#">
+        <a href="https://github.com/Paultree" target="_blank">
           <img src={git} />
           @paultree
         </a>

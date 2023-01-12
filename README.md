@@ -1,46 +1,42 @@
 # Portfolio Website
 
-## Outline
+- Reinforce and implementing everything I have learnt so far about front-end development.
+  - Implementing HTML, CSS, SCSS, React framework JS.
 
-It is time to put what you have been learning to the test here is your project brief!
-Your challenge is to put everything you’ve learned so far to the test by building your own portfolio website. This website will form the foundation of your final portfolio at the end of the course, allowing you to showcase yourself and your work to its best potential. You are obviously free to iterate on the design of it as you progress through the course, but the aim for now is a high quality first draft that we can connect all your future projects to.
-Let’s build!
-We’re aiming for the following goals for this project:
+# Image
 
-### A working Portfolio:
+![Alt Text](./project-demo.gif)
 
-The main task is to create a portfolio to showcase what you will be learning on the course and to give the visitors an insight to who you are.
+# Link
 
-### Practice using Git and GitHub flow:
+# Setup
 
-We want you to get as much practice as possible using git, GitHub and the command line.
-
-### Apply what you are learning:
-
-This is a great place to apply what you have been learning on the course. Push on, use SCSS, BEM, anything else you find on the web.
+- npm i
+- Typewriter effect
+- React scroll
 
 ## MVP
 
-- You need to have it as a public repository on GitHub
-- In the repo you will also need a README.md with a short intro to the project.
-- You are to use SCSS for styling.
-- You are to use B.E.M as a naming convention.
+- You need to have it as a public repository on GitHub - [x]
+- In the repo you will also need a README.md with a short intro to the project. - [x]
+- You are to use SCSS for styling. - [x]
+- You are to use B.E.M as a naming convention. - [x]
 - !!! Responsiveness is vital – use Grid, Flex, whatever you wish but the site must look good at all screen widths.
-  VERY CRITICAL! : You will need to make sure that your website looks good on phones, tablets and laptops (we will see Media Queries next week, docs to follow)
+  VERY CRITICAL! : You will need to make sure that your website looks good on phones, tablets and laptops (we will see Media Queries next week, docs to follow) - []
 
 Your Portfolio should have the following section:
 
-- A landing page/section with your name and title on it.
-- An About page/section with a little bit about you
-- A Tech stacks/skills page/section with all the techs you have learned during the course
-- A Project page/section with all your projects (use placeholder images and text at the beginning to render your website as it would with actual projects) - each project should have a little description, a link to a live version and a link to the matching GitHub Repo (using a README.md at the root of the repo to include how you went about coding for that project)
-- A Contact page/section with your email, GitHub profile link, LinkedIn profile link
+- A landing page/section with your name and title on it. - [x]
+- An About page/section with a little bit about you - [x]
+- A Tech stacks/skills page/section with all the techs you have learned during the course - [x]
+- A Project page/section with all your projects (use placeholder images and text at the beginning to render your website as it would with actual projects) - each project should have a little description, a link to a live version and a link to the matching GitHub Repo (using a README.md at the root of the repo to include how you went about coding for that project) - [x]
+- A Contact page/section with your email, GitHub profile link, LinkedIn profile link - [x]
 
 ### TIPS:
 
-- Choose a clear, clean, simple colour palette
-- Make sure to have the MVP done with all the different section before adding extra feature (animations, effects, etc)
-- Create a new branch for each section of your page to practice your Git
+- Choose a clear, clean, simple colour palette - [x]
+- Make sure to have the MVP done with all the different section before adding extra feature (animations, effects, etc) - [x]
+- Create a new branch for each section of your page to practice your Git - [x]
 
 ### Useful resources:
 
@@ -49,43 +45,9 @@ Your Portfolio should have the following section:
 - [Color Palette Generator](https://coolors.co/generate)
 - [Tips For Modible First Design](https://www.invisionapp.com/inside-design/mobile-first-design/)
 - [Guide to Mobile First Design](https://css-tricks.com/how-to-develop-and-test-a-mobile-first-design-in-2021/)
-
-### Portfolio Examples:
-
-Nologists
-
-- [Austin Ly](https://www.astnly.com/)
-- [Kevin Chen](https://www.kchn.com.au/)
-- [Ben Strathdee](https://benstrathdee.github.io/)
-- [Arrum Soerjo](https://arrums.github.io/)
-- [Josie Newman](https://josienewman.dev/)
-
-Other Devs
-
-- [Lars Olson](https://www.lars-olson.com/)
-- [Brittany Chiang](https://brittanychiang.com/)
-
-#### List of skills
-
 - [Gorgeous SVG logos](https://www.vectorlogo.zone/)
 
-- HTML
-- CSS/SCSS
-- JavaScript
-- ReactJS
-- Firebase/Firestore
-- MySQL
-- Java
-- Spring / Spring Boot
-- Git / GitHub
-- AWS
-
-Purpose:
-
-- Reinforce and implementing everything I have learnt so far about front-end development.
-  - Implementing HTML, CSS, SCSS, Javascript, ReactJS.
-
-MVP:
+# Approach
 
 - Build a SPA application for personal website. - [x]
 - A landing page/section with your name and title on it. - [x]
@@ -105,3 +67,19 @@ MVP:
 5/01/2022
 
 - Set up a projects page, a qualifications page and an about me page with contact info.
+
+# Reflection
+
+# Future Goals
+
+- Swap out the projects.
+  - Need to add 1 that displays Java proficiency.
+  - Need to add the e-commerce website to demonstrate skills with firebase/firestore + React.
+
+# Further reading
+
+# Stay in touch
+
+# Licence
+
+# Contribution
