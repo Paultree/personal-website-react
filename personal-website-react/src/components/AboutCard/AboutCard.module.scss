@@ -1,4 +1,14 @@
 .AboutCard {
+  &_Image {
+    padding-top: 1rem;
+    & > img {
+      border-radius: 50%;
+      width: 20rem;
+      height: auto;
+
+      box-shadow: 2px 2px 10px #f8f9fa;
+    }
+  }
   & > h1 {
     font-size: 2rem;
   }
