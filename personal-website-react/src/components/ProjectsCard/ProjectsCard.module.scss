@@ -15,7 +15,12 @@
     width: 9rem;
     height: 12rem;
     padding: 0 0.5rem;
-    overflow: scroll;
+
+    &_Para {
+      overflow: scroll;
+      width: 100%;
+      height: 75%;
+    }
     & > h2 {
       font-size: 0.9rem;
     }
@@ -57,7 +62,9 @@
   .ProjectDetails {
     width: 12rem;
     padding: 0 1rem;
-    overflow: visible;
+    &_Para {
+      overflow: visible;
+    }
     & > h2 {
       font-size: 1.25rem;
     }

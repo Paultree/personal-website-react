@@ -19,7 +19,9 @@ const ProjectsCard = ({ data }) => {
       </div>
       <div className={styles.ProjectDetails}>
         <h2>{data.title}</h2>
-        <p>{data.desc}</p>
+        <div className={styles.ProjectDetails_Para}>
+          <p>{data.desc}</p>
+        </div>
       </div>
     </div>
   );
