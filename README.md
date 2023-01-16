@@ -22,7 +22,7 @@
 - You are to use SCSS for styling. - [x]
 - You are to use B.E.M as a naming convention. - [x]
 - !!! Responsiveness is vital – use Grid, Flex, whatever you wish but the site must look good at all screen widths.
-  VERY CRITICAL! : You will need to make sure that your website looks good on phones, tablets and laptops (we will see Media Queries next week, docs to follow) - []
+  VERY CRITICAL! : You will need to make sure that your website looks good on phones, tablets and laptops (we will see Media Queries next week, docs to follow) - [x]
 
 Your Portfolio should have the following section:
 

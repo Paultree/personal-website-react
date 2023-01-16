@@ -1,33 +1,98 @@
-.AboutCard {
-  &_Image {
-    padding-top: 1rem;
-    & > img {
-      border-radius: 50%;
-      width: 20rem;
-      height: auto;
+@media only screen and (min-width: 320px) {
+  .AboutCard {
+    &_Image {
+      padding-top: 1rem;
+      & > img {
+        border-radius: 50%;
+        width: 12.5rem;
+        height: auto;
 
-      box-shadow: 2px 2px 10px #f8f9fa;
-    }
-  }
-  & > h1 {
-    font-size: 2rem;
-  }
-  &_Info {
-    display: flex;
-    padding: 1rem 2rem;
-
-    &_Para {
-      width: 20rem;
-      padding: 2rem 5rem;
-      font-size: 1.1rem;
-      > p:first-child {
-        margin-bottom: 2rem;
-        margin-top: 0;
+        box-shadow: 2px 2px 10px #f8f9fa;
       }
     }
-    & > img {
-      width: 30rem;
-      border-radius: 50%;
+    & > h1 {
+      font-size: 1.25rem;
+    }
+    &_Info {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 1rem;
+
+      &_Para {
+        width: 16rem;
+        padding: 2rem 1rem;
+        font-size: 1rem;
+        > p:first-child {
+          margin-bottom: 2rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .AboutCard {
+    &_Image {
+      padding-top: 1rem;
+      & > img {
+        border-radius: 50%;
+        width: 15rem;
+        height: auto;
+
+        box-shadow: 2px 2px 10px #f8f9fa;
+      }
+    }
+    & > h1 {
+      font-size: 2rem;
+      text-align: left;
+    }
+    &_Info {
+      display: flex;
+      padding: 1rem 1rem;
+      flex-direction: row;
+
+      &_Para {
+        width: 20rem;
+        padding: 2rem 3rem;
+        font-size: 1rem;
+        > p:first-child {
+          margin-bottom: 2rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .AboutCard {
+    &_Image {
+      padding-top: 1rem;
+      & > img {
+        border-radius: 50%;
+        width: 20rem;
+        height: auto;
+
+        box-shadow: 2px 2px 10px #f8f9fa;
+      }
+    }
+    & > h1 {
+      font-size: 2rem;
+    }
+    &_Info {
+      display: flex;
+      padding: 1rem 2rem;
+
+      &_Para {
+        width: 20rem;
+        padding: 2rem 5rem;
+        font-size: 1.1rem;
+        > p:first-child {
+          margin-bottom: 2rem;
+          margin-top: 0;
+        }
+      }
     }
   }
 }

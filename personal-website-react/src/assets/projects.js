@@ -11,7 +11,7 @@ const morseObj = {
 };
 
 const wordleObj = {
-  title: "Wordle Clone",
+  title: "Wordle Unlimited",
   image: wordle,
   desc: "A wordle clone built with HTML, CSS & Vanilla Javascript to demonstrate DOM manipulation.",
   git: "https://github.com/Paultree/wordle-clone",

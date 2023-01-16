@@ -1,10 +1,32 @@
-.AboutPage {
-  background-color: #212529;
-  color: #f8f9fa;
-  display: flex;
-  padding: 15rem 0;
-  &_Center {
-    margin: 0 auto;
+@media only screen and (min-width: 320px) {
+  .AboutPage {
+    & > * {
+      text-align: center;
+    }
+    background-color: #212529;
+    color: #f8f9fa;
     display: flex;
+
+    padding: 2rem 0;
+    &_Center {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .AboutPage {
+    background-color: #212529;
+    color: #f8f9fa;
+    display: flex;
+
+    padding: 15rem 0;
+    &_Center {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+    }
   }
 }

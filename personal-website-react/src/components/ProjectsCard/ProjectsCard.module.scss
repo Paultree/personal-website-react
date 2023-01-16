@@ -1,24 +1,119 @@
-.ProjectsCard {
-  display: flex;
-}
-
-.ProjectDetails {
-  width: 15rem;
-  padding: 0 1rem;
-  &_Tiles {
-    & > a {
+@media only screen and (min-width: 320px) {
+  .ProjectsCard {
+    display: flex;
+    &_Image {
       & > img {
-        width: 2rem;
-        margin: 0.5rem;
-        &:hover {
-          filter: invert(99%) sepia(6%) saturate(294%) hue-rotate(80deg)
-            brightness(104%) contrast(93%);
+        width: 9rem;
+        height: 12rem;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .ProjectDetails {
+    width: 9rem;
+    height: 12rem;
+    padding: 0 0.5rem;
+    overflow: scroll;
+    & > h2 {
+      font-size: 0.9rem;
+    }
+    & > p {
+      font-size: 1rem;
+    }
+    &_Tiles {
+      & > a {
+        & > img {
+          width: 1.5rem;
+          margin: 0.5rem;
+          &:hover {
+            filter: invert(99%) sepia(6%) saturate(294%) hue-rotate(80deg)
+              brightness(104%) contrast(93%);
+          }
         }
       }
     }
   }
+
+  h2 {
+    margin: 0;
+  }
 }
 
-h2 {
-  margin: 0;
+@media only screen and (min-width: 763px) {
+  .ProjectsCard {
+    display: flex;
+    &_Image {
+      & > img {
+        width: 12rem;
+        height: 16rem;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .ProjectDetails {
+    width: 12rem;
+    padding: 0 1rem;
+    overflow: visible;
+    & > h2 {
+      font-size: 1.25rem;
+    }
+    & > p {
+      font-size: 0.9rem;
+    }
+    &_Tiles {
+      & > a {
+        & > img {
+          width: 1.5rem;
+          margin: 0.5rem;
+          &:hover {
+            filter: invert(99%) sepia(6%) saturate(294%) hue-rotate(80deg)
+              brightness(104%) contrast(93%);
+          }
+        }
+      }
+    }
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .ProjectsCard {
+    display: flex;
+    &_Image {
+      & > img {
+        width: 15rem;
+        height: 20rem;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .ProjectDetails {
+    width: 15rem;
+    padding: 0 1rem;
+    &_Tiles {
+      & > a {
+        & > img {
+          width: 2rem;
+          margin: 0.5rem;
+          &:hover {
+            filter: invert(99%) sepia(6%) saturate(294%) hue-rotate(80deg)
+              brightness(104%) contrast(93%);
+          }
+        }
+      }
+    }
+  }
+
+  h2 {
+    margin: 0;
+  }
 }

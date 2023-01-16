@@ -1,15 +1,39 @@
-.Header {
-  height: 94vh;
-  padding: 0 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  & > * {
-    color: #212529;
-  }
-
-  &_TypeWriter {
-    font-size: 1.5rem;
+@media only screen and (min-width: 320px) {
+  .Header {
+    height: 94vh;
+    width: 100%;
+    padding: 0 5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > * {
+      color: #212529;
+      font-size: 1.25rem;
+    }
+
+    &_TypeWriter {
+      font-size: 1rem;
+      display: flex;
+    }
+  }
+}
+
+@media only screen and (min-width: 762px) {
+  .Header {
+    height: 94vh;
+    width: 100%;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > * {
+      color: #212529;
+      font-size: 1.5rem;
+    }
+
+    &_TypeWriter {
+      font-size: 1.5rem;
+      display: flex;
+    }
   }
 }

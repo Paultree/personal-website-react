@@ -1,19 +1,67 @@
-.ProjectsPage {
-  text-align: center;
-  margin: auto 10rem;
-  min-height: 100vh;
-  color: #f8f9fa;
+@media only screen and (min-width: 320px) {
+  .ProjectsPage {
+    text-align: center;
+    margin: auto 2rem;
+    min-height: 100vh;
+    color: #f8f9fa;
 
-  &_Grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 5rem;
-    padding: 3rem 0;
+    &_Grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      padding: 3rem 0;
+    }
+
+    & > h1 {
+      font-size: 1.25rem;
+      margin: 0;
+      padding-top: 3rem;
+    }
   }
+}
 
-  & > h1 {
-    margin: 0;
-    padding-top: 3rem;
+@media only screen and (min-width: 763px) {
+  .ProjectsPage {
+    text-align: center;
+    margin: auto 2rem;
+    min-height: 100vh;
+    color: #f8f9fa;
+
+    &_Grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      padding: 3rem 0;
+    }
+
+    & > h1 {
+      font-size: 2rem;
+      margin: 0;
+      padding-top: 3rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .ProjectsPage {
+    text-align: center;
+    margin: auto 10rem;
+    min-height: 100vh;
+    color: #f8f9fa;
+
+    &_Grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 5rem;
+      padding: 3rem 0;
+    }
+
+    & > h1 {
+      margin: 0;
+      padding-top: 3rem;
+    }
   }
 }

@@ -1,21 +1,49 @@
-.LanguagesGrid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 2rem;
-  & > div {
-    & > img {
-      width: 4rem;
-      height: auto;
-      gap: 3rem;
+@media only screen and (min-width: 320px) {
+  .LanguagesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+    & > div {
+      & > img {
+        width: 2rem;
+        height: auto;
+        gap: 1.5rem;
+      }
     }
+  }
+
+  .language {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 }
 
-.language {
-  display: flex;
-}
+@media only screen and (min-width: 763px) {
+  .LanguagesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    justify-content: flex-start;
+    & > div {
+      & > img {
+        width: 4rem;
+        height: auto;
+        gap: 3rem;
+      }
+    }
+  }
 
-h1 {
-  font-size: 1.5rem;
+  .language {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }

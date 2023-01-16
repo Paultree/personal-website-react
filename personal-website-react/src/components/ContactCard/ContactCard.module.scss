@@ -1,24 +1,85 @@
-.ContactCard {
-  & > h1 {
-    padding-left: 2rem;
-    margin-bottom: 5rem;
-    font-size: 2rem;
-  }
-  &_Links {
-    display: flex;
-    flex-direction: column;
-    & > a:hover {
-      color: darkgray;
+@media only screen and (min-width: 320px) {
+  .ContactCard {
+    & > h1 {
+      padding-left: 0rem;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      text-align: center;
     }
-    & > a {
-      margin: 1rem 0;
-      text-decoration: none;
-      color: #f8f9fa;
+    &_Links {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 0 2rem;
+      & > a:hover {
+        color: darkgray;
+      }
+      & > a {
+        margin: 1rem 0;
+        text-decoration: none;
+        color: #f8f9fa;
 
-      & > img {
-        width: 1.5rem;
-        height: auto;
-        margin-right: 1rem;
+        & > img {
+          width: 1.2rem;
+          height: auto;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .ContactCard {
+    & > h1 {
+      padding-left: 2rem;
+      margin-bottom: 5rem;
+      font-size: 2rem;
+    }
+    &_Links {
+      display: flex;
+      flex-direction: column;
+      & > a:hover {
+        color: darkgray;
+      }
+      & > a {
+        margin: 1rem 0;
+        text-decoration: none;
+        color: #f8f9fa;
+
+        & > img {
+          width: 1.2rem;
+          height: auto;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .ContactCard {
+    & > h1 {
+      padding-left: 2rem;
+      margin-bottom: 5rem;
+      font-size: 2rem;
+    }
+    &_Links {
+      display: flex;
+      flex-direction: column;
+      & > a:hover {
+        color: darkgray;
+      }
+      & > a {
+        margin: 1rem 0;
+        text-decoration: none;
+        color: #f8f9fa;
+
+        & > img {
+          width: 1.5rem;
+          height: auto;
+          margin-right: 1rem;
+        }
       }
     }
   }
