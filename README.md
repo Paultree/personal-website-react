@@ -14,6 +14,7 @@
 - npm i
 - Typewriter effect
 - React scroll
+- react-burger-menu
 
 ## MVP
 
