@@ -10,7 +10,7 @@ const ProjectsCard = ({ data }) => {
         <img src={data.image} />
         <div className={styles.ProjectDetails_Tiles}>
           <a href="#">
-            <img src={go} />
+            <img src={go} className={styles.Go} />
           </a>
           <a href={data.git} target="_blank">
             <img src={git} />
