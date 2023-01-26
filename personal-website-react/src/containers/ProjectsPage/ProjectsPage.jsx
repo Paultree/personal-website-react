@@ -5,11 +5,12 @@ import {
   wordleObj,
   booksObj,
   calcObj,
+  eshopObj,
 } from "../../assets/projects.js";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard.jsx";
 
 const ProjectsPage = () => {
-  const projectsArr = [morseObj, wordleObj, booksObj, calcObj];
+  const projectsArr = [morseObj, wordleObj, booksObj, calcObj, eshopObj];
 
   return (
     <div className={styles.ProjectsPage}>

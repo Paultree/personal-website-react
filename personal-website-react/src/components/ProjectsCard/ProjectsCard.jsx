@@ -9,7 +9,7 @@ const ProjectsCard = ({ data }) => {
       <div className={styles.ProjectsCard_Image}>
         <img src={data.image} />
         <div className={styles.ProjectDetails_Tiles}>
-          <a href="#">
+          <a href={data.link} target="_blank">
             <img src={go} className={styles.Go} />
           </a>
           <a href={data.git} target="_blank">
