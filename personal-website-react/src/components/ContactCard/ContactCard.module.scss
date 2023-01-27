@@ -39,6 +39,7 @@
     &_Links {
       display: flex;
       flex-direction: column;
+      text-align: center;
       & > a:hover {
         color: darkgray;
       }
