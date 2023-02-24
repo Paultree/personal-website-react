@@ -25,7 +25,7 @@ const booksObj = {
   image: booksapi,
   desc: "A search UI for the Google Books API using React and React Router. Demonstrates proficiency with asynchronous functions, promises and using APIs.",
   git: "https://github.com/Paultree/google-books-react",
-  link: "https://react-book-search.vercel.app/",
+  link: "https://react-book-search-paultree.vercel.app/",
 };
 
 const calcObj = {
