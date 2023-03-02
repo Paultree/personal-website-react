@@ -3,6 +3,7 @@ import wordle from "./wordle.gif";
 import booksapi from "./googleapi.gif";
 import calculator from "./calculator.gif";
 import eshop from "./eshop.gif";
+import employee from "./employee.gif";
 
 const morseObj = {
   title: "Morse Code Translator",
@@ -44,4 +45,12 @@ const eshopObj = {
   link: "https://e-commerce-react-psi.vercel.app/",
 };
 
-export { morseObj, wordleObj, booksObj, calcObj, eshopObj };
+const employeeObj = {
+  title: "Employee List",
+  image: employee,
+  desc: "A basic full-stack application built with React TypeScript and Java Springboot. Purpose was to reinforce full-stack app building skills, learn react-query library and useForm and to upskill in creating tests for react components and Springboot. (Link not available)",
+  git: "https://github.com/Paultree/employee-list",
+  link: "https://google.com",
+};
+
+export { morseObj, wordleObj, booksObj, calcObj, eshopObj, employeeObj };
