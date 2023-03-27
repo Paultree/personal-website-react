@@ -67,7 +67,7 @@ Your Portfolio should have the following section:
 - Set up a HomePage which will consist of a small introductory header and an array of programming language icons.
 - Will need to implement a solution where hovering on an icon will render the name of the language on the screen somewhere...
 
-5/01/2022
+5/01/2023
 
 - Set up a projects page, a qualifications page and an about me page with contact info.
 
