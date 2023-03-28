@@ -1,9 +1,9 @@
-import morse from "./morse.gif";
-import wordle from "./wordle.gif";
-import booksapi from "./googleapi.gif";
-import calculator from "./calculator.gif";
-import eshop from "./eshop.gif";
-import employee from "./employee.gif";
+import morse from "../assets/morse.gif";
+import wordle from "../assets/wordle.gif";
+import booksapi from "../assets/googleapi.gif";
+import calculator from "../assets/calculator.gif";
+import eshop from "../assets/eshop.gif";
+import employee from "../assets/employee.gif";
 
 const morseObj = {
   title: "Morse Code Translator",

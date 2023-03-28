@@ -7,7 +7,7 @@ import {
   calcObj,
   eshopObj,
   employeeObj,
-} from "../../assets/projects.js";
+} from "../../service/projects.js";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard.jsx";
 
 const ProjectsPage = () => {

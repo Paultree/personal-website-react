@@ -17,13 +17,13 @@ const Header = ({ isMobile }) => {
           <TypeWriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("AWS")
-                .pauseFor(1000)
-                .deleteAll()
                 .typeString("CSS")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("JavaScript")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("TypeScript")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("ReactJS")
