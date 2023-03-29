@@ -42,7 +42,7 @@ const eshopObj = {
   image: eshop,
   desc: "A custom e-commerce store built with React and Firestore/Firebase. Demonstrates proficiency with React and using BaaS databases like Firestore/Firebase.",
   git: "https://github.com/Paultree/e-cshop-website",
-  link: "https://e-commerce-react-psi.vercel.app/",
+  link: "https://e-commerce-react-paultree.vercel.app/",
 };
 
 const employeeObj = {
